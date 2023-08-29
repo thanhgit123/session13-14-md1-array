@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let a = prompt("nhap  vao  chuoi  1");
+      let b = prompt("nhap  vao  chuoi  2");
+      if (a.length !== b.length) {
+        alert("2 chuoi  khac nhau");
+      } else {
+        for (let i = 0; i < a.length; i++) {
+          console.log(a[i]);
+          if (a[i] === b[i]) {
+            alert("chuoi khac nhau");
+            break;
+          }
+        }
+      }
+    </script>
+</body>
+</html>

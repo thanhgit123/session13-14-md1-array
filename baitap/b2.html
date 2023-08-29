@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let word=prompt("nhập từ");
+        let english=["one","two","three","four"];
+        let vietnam=["một","hai","ba","tư"];
+        let index=vietnam.indexOf(word);
+        if(index!=-1){
+            console.log(`từ ${word} dịch ra là ${english[index]}`);
+        }else{
+            console.log("tự tìm");
+        }
+        
+    </script>
+</body>
+</html>

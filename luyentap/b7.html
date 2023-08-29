@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let Num = "1,2,3,4,5,6,7,8,7,10"
+       let number = Num.split(",")
+       let numm = prompt("moi nhap so nguyen can xao")
+       if(number.indexOf(numm)===-1){
+        console.log("ko co so nguyen do trong mang ")
+       }else{
+        for(let x=0;x<number.length;x++){
+            if(numm==number[x]){
+                number.splice(x,1)
+            }
+        }
+       }
+       console.log(number);
+    </script>
+</body>
+</html>

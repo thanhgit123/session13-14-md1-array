@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        
+        let num = prompt(" moi nhap vao mot mang songuye cach nhau ,:")
+        let number = num.split(",");
+        let Max = number[0];
+        let total = 0
+        for(let x =0;x<number.length ;x++){
+            if(Max<number[x]){
+                Max = number[x]
+            }
+            total += +number[x];
+        }
+        let TBC = total/number.length ;
+        console.log(`so lon nhat la ${Max}`);
+        console.log(`TBC laf ${TBC}`);
+    </script>
+</body>
+</html>

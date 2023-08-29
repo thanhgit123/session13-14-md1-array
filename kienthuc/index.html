@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- 
+        Array: lưu trữ tập hợp phần tử(element khác nhau) lại với nhau
+        array:kiểu giữ liệu phức tạp
+        - giá trị lưu ở vùng nhớ HEAP
+        - kiểu tham chiếu
+        1.Cách khởi tạo mảng
+         - mảng chứa các phần tử ngăn cách nhau bằng dấu phẩy
+         - mảng có thể chứa nhiều kiểu dữ liệu khác nhau.
+        2.Các thuộc tính riêng của mảng
+        - index:là chỉ mục các phần tử trong mảng
+            + chỉ mục của mảng được đánh số bắt đầu từ 0
+        -length:độ dài của mảng
+        3.Typeof của array là object
+        -kiểm tra có phải mảng hay không thì dùng Array.isArray()
+        4.TRuy cập các phần tử trong mảng
+            -tên mảng[index]
+        5.CRUD với mảng
+        - C: Create: thêm mới phần tử trong mảng
+            + push(): phương thức thêm phần tử vào vị trí cuối cùng của mảng
+            + unshift(): phương thức thêm phần tử vào vị trí đầu tiên của mảng
+            + thêm trực  tiếp theo chỉ mục imdex
+            + splice(vị trí,số phần tử muốn xóa,phần tử thêm vào):
+        - R: Read : đọc hay duyệt các phần tử trong mảng
+            + for: thường
+            + for-in: in ra chỉ mục index của mảng
+            + for-of : in ra giá trị các phần tử trong mảng
+        - U: update: cập nhật phần tử trong mảng
+            + update :trực tiếp
+            + splice : tương tác trực tiếp vói mảng cũ 
+        - D: Delete: xóa phần tử trong mảng
+            + pop() : xóa phần tử cuối cùng trong mảng
+            + shift() : xóa phần tử đầu tiên của mảng
+            + splice() :
+        *************************************************************************
+        các phương thức làm việc với mảng
+        1.slice
+            -cắt, sao chép ra một mảng mới.(dùng đc với cả chuỗi)
+        2.sort
+            - sắp xếp các phần trong mảng theo bảng mã asci
+        3. reverse() : đảo ngược mảng
+        4.split() : cắt chuỗi thành mảng
+        5.join() :gộp các phần tử trong mảng thành chuỗi
+        6.toString : chuyển mảng thành chuỗi, có thể chuyển đổi số thành chuỗi
+        7.indexof(): kiểm tra phần tử trong mảng  có hay ko nếu có trả về vị trí tìm thấy đầu tiên,
+                    nếu ko có thì trả về -1 
+        8. includes : tìm kiếm phần tử trả về true/false
+        9. toUpperCase() : chuyển chữ thường thành chữ in hoa
+        10.toLowerCase() : chuyển hoa thành thưòng
+        11. charAt() : lấy ký tự vị trí của chuỗi
+        12. map(): dùng để duyệt mảng     **
+        13. reduce():tính toán  (funtion) **
+        14. filter():           (funtion) **
+        15. forEach():          (funtion) 
+        16.find():              (funtion) 
+        17. findIndex():        (funtion) 
+        18. every():            (funtion) 
+        19.some():              (funtion) 
+        20.fill(): thay thế phần tử trong mảng, length giữ nguyên
+        21. concat():  gộp mảng 
+        ******************************
+        kiểm tra chuỗi bắt đàu và kết thúc
+        22. endWidth()
+        23.startWidth()
+        
+     -->
+     <script>
+        // let text="hưng béo quá";
+        // let result=text.split(" ");
+        // for (let i = 0; i < result.length; i++) {
+
+        //     result[i]=result[i].charAt(0).toUpperCase()+ result[i].slice(1); 
+        // }   
+        // console.log(result.join(" "));
+
+
+            // ****
+    //     let text="hưng béo quá";
+    //     let result=text.split(" ");
+    //     for (let i = 0; i < result.length; i++) {
+                
+    //         result[i]= result[i].slice(0,1)+result[i].charAt(1).toUpperCase()+ result[i].slice(2); 
+    //     }   
+    //     console.log(result.join(" "));
+
+
+        let array=[];
+        
+
+      </script>
+</body>
+</html>

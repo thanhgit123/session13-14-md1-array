@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      let Arr = [];
+      let count = 1;
+      for (let i = 0; i < 5; i++) {
+        do {
+          let number = +prompt("moi nhap lai so nguyen");
+          if (Number.isInteger(number)) {
+            if (Arr.indexOf(number) === -1) {
+              Arr.push(number);
+              count++;
+              break;
+            } else {
+              alert("moi nhap lai");
+            }
+          } else {
+            alert(" moi ban nhap lai ");
+          }
+        } while (count > 0);
+      }
+      console.log(Arr);
+      let max = Arr[0];
+      for (let i = 0; i < Arr.length; i++) {
+        if (max < Arr[i]) {
+          max = Arr[i];
+        }
+      }
+      console.log(
+        `gia tri lon nhat la ${max} vi tri trong mang ${Arr.indexOf(max) + 1}`
+      );
+
+      // let array=[];
+      // let max=array[0];
+      // let index=0;
+      // for(let i=0;i<5;i++){
+      //     let num = +prompt("nhap số");
+      //     array.push(num);
+      // }
+      // for(let a=0;a<array.length;a++);{
+      //     if(max < array[a]){
+      //         max=array[a];
+      //         index= a;
+      //     }
+      // }
+      //   console.log(max);
+      //   console.log(index);
+    </script>
+  </body>
+</html>
